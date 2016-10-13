@@ -1,0 +1,17 @@
+.sidebar {
+  float: left;
+  background-color: lightgray;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  color: blue;
+}
+
+.sidebar h3 {
+  color: gray;
+  font-size: 12px;
+}
