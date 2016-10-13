@@ -1,5 +1,40 @@
+tr {
+  width: 100%;
+}
+
+h3  {
+  font-size: 14px;
+  color: gray;
+  border-top: 1px solid gray;
+}
+
+table {
+  width: 100%;
+}
+
+img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: times;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-size: 16px;
+}
+
+strong {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
 .sidebar {
-  float: left;
   background-color: lightgray;
 }
 
@@ -7,11 +42,71 @@
   list-style: none;
 }
 
-.sidebar li {
-  color: blue;
-}
-
 .sidebar h3 {
   color: gray;
   font-size: 12px;
+}
+
+.sidebar li {
+  margin-left: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+
+.left {
+  text-align: left;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+
+.gray {
+  background-color: lightgray;
+}
+
+.purple {
+  background-color: #fef;
+}
+
+.purple-heading {
+  background-color: #dcd;
+}
+
+.main {
+  padding: 5px;
+}
+
+.firstlinks > li {
+  margin-left: -10px;
+}
+
+.underlinecell {
+  border-bottom: 1px solid black;
+}
+
+.green-body {
+  background-color: #EFE;
+}
+
+.blue-body {
+  background-color: #e8f2f7;
+}
+
+.purple-body {
+  background-color: #FEF
+}
+
+.col-md-6 {
+  height: 100%;
+}
+
+.col-md-6 {
+  margin-top: 5px;
+}
+
+.center {
+  text-align: center;
 }
